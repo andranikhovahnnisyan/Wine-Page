@@ -487,7 +487,11 @@
        </div>
         <div class="blog_card_big_div">
          <div class="blog_cards">
-          <div class="blog_card_image_div"></div>
+          <a href="#">
+           <div class="blog_card_image_div">
+            <div class="gradient_div_2"></div>
+           </div>
+          </a>
           <div class="blog_card_about_div">
            <div class="blog_card_date_div">July 22, 2022</div>
            <a class="blog_card_main_name_href" href="#">Guide to Sparkling and Dessert Wines</a>
@@ -497,7 +501,11 @@
           </div>
          </div>
          <div class="blog_cards">
-          <div class="blog_card_image_div2"></div>
+          <a href="#">
+           <div class="blog_card_image_div2">
+            <div class="gradient_div_2"></div>
+           </div>
+          </a>
           <div class="blog_card_about_div">
            <div class="blog_card_date_div">May 03, 2022</div>
            <a class="blog_card_main_name_href" href="#">Why Wines Taste Better With Age</a>
@@ -507,7 +515,11 @@
           </div>
           </div>
          <div class="blog_cards">
-         <div class="blog_card_image_div3"></div>
+          <a href="#">
+           <div class="blog_card_image_div3">
+            <div class="gradient_div_2"></div>
+           </div>
+          </a>
           <div class="blog_card_about_div">
            <div class="blog_card_date_div">April 01, 2022</div>
            <a class="blog_card_main_name_href" href="#">How to Taste Wine Lika a Pro</a>
@@ -517,7 +529,11 @@
           </div>
           </div>
          <div class="blog_cards">
-         <div class="blog_card_image_div4"></div>
+          <a href="#">
+           <div class="blog_card_image_div4">
+            <div class="gradient_div_2"></div>
+           </div>
+          </a>
           <div class="blog_card_about_div">
            <div class="blog_card_date_div">February 11, 2022</div>
            <a class="blog_card_main_name_href" href="#">5 Valentine's Day Ideas with Wine</a>
@@ -579,13 +595,15 @@
          <div class="subscribe_div">
           <div class="subscribe_text">Subscribe For Newsletter</div>
           <div class="checkbox_div">
-           <input class="checkbox" type="checkbox">
-           <span class="subscribe_text">Please confirm that you agree with our</span> 
+           <input form="reg_form" class="checkbox" type="checkbox" required>
+           <span class="subscribe_text">Please confirm that you agree with our <a class="privacy_href" href="#"> Privacy policy</a> </span> 
           </div>
           <div class="email_div_big">
            <div class="email_div">
-            <input class="email_input" type="text" placeholder="Your email address">
-            <input class="arrow_input_div" type="submit" value=">">
+            <form class="form" id="reg_form" action="#">
+             <input class="email_input" type="text" placeholder="Your email address" required>
+             <input class="arrow_input_div" type="submit" value=">">
+            </form>
            </div>
           </div>
          </div>
@@ -596,32 +614,38 @@
          <div class="top_footer_right">
           <div class="follow_us_text">Follow us</div>
           <div class="footer_soical_div">
-           <div class="footer_social">
-           <svg class="svg_logos" width="100%" height="100%" viewBox="0 0 24 24" fill="black">
+           <a class="social_link" href="#" target="_blank">
+             <div class="footer_social">
+           <svg class="svg_logos" width="70%" height="70%" viewBox="0 0 24 24" fill="#999999">
             <path d="M0 0h24v24H0z" fill="none"/>
             <path d="M14.2 2.875A4.625 4.625 0 0 0 9.575 7.5v2.575H7.1c-.124 0-.225.1-.225.225v3.4c0 .124.1.225.225.225h2.475V20.9c0 .124.1.225.225.225h3.4c.124 0 .225-.1.225-.225v-6.975h2.497c.103 0 .193-.07.218-.17l.85-3.4a.225.225 0 0 0-.218-.28h-3.347V7.5a.775.775 0 0 1 .775-.775h2.6c.124 0 .225-.1.225-.225V3.1c0-.124-.1-.225-.225-.225z" />
            </svg>
            </div>
-           <div class="footer_social">
-           <svg class="svg_logos" width="100%" height="100%" viewBox="0 0 32 32" fill="black">
+            </a>
+             <a class="social_link" href="#" target="_blank">
+             <div class="footer_social">
+           <svg class="svg_logos" width="70%" height="70%" viewBox="0 0 32 32" fill="#999999">
             <path d="M0 0h32v32H0z" fill="none" />
             <path d="M18.234 14.162L26.977 4h-2.072l-7.591 8.824L11.25 4H4.258l9.169 13.343L4.258 28H6.33l8.016-9.318L20.75 28h6.993zm-2.837 3.299l-.93-1.329L7.078 5.56h3.182l5.964 8.532l.93 1.329l7.753 11.09h-3.182z" />
            </svg>
            </div>
-           <div class="footer_social">
-            <svg class="svg_logos" width="100%" height="100%" viewBox="0 0 24 24" fill="black">
+             </a>
+             <a class="social_link" href="#" target="_blank">
+              <div class="footer_social">
+            <svg class="svg_logos" width="70%" height="70%" viewBox="0 0 24 24" fill="#999999">
             <path d="M0 0h24v24H0z" fill="none" />
             <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3" />
             </svg> 
             </div> 
+           </a>
           </div>
           <div class="tel_and_etc">
            <div class="need_help">Need help? Contact us here!</div>
            <div class="tel">+00 00 00 00 00 000</div>
            <div class="time">(Mo - Fr: 08:00 - 17:00)</div> 
           </div>
-          <div class="copyright_div">Copyright © Vine and Wine Foundation of Armenia <a href="https://vwfa.am/" target="_blank">www.vwfa.am</a> </div>
-          <div class="dev_div">Developed and designed by <a href="https://www.studio-one.am/" target="_blank">Studio One</a> </div>
+          <div class="copyright_div">Copyright © Vine and Wine Foundation of Armenia <a class="vwfa_href" href="https://vwfa.am/" target="_blank">www.vwfa.am</a> </div>
+          <div class="dev_div">Developed and designed by <a class="studio_one_href" href="https://www.studio-one.am/" target="_blank">Studio One</a> </div>
          </div>
         </div>
        </div>
